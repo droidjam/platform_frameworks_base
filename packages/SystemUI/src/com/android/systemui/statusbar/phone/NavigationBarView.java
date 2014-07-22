@@ -60,7 +60,6 @@ import com.android.systemui.statusbar.policy.KeyButtonView;
 import java.io.FileDescriptor;
 import java.io.PrintWriter;
 
-public class NavigationBarView extends LinearLayout {
 public class NavigationBarView extends LinearLayout implements NavigationCallback {
     private static final int CAMERA_BUTTON_FADE_DURATION = 200;
     final static boolean DEBUG = false;
@@ -687,3 +686,4 @@ public class NavigationBarView extends LinearLayout implements NavigationCallbac
     }
 
 }
+
